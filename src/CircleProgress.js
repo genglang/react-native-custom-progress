@@ -89,6 +89,7 @@ class CircleProgress extends React.Component {
             <View style={{
                 width: size,
                 height: size,
+                backgroundColor:'transparent' // 用于解决安卓下黑屏的问题
             }}>
                 <Surface width={size} height={size}>
                     <Group>

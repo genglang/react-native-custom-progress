@@ -7,6 +7,4 @@ import AnimatedCircleProgress from './src/CircleProgress'
 
 // AppRegistry.registerComponent(appName, () => App)
 
-module.exports = {
-    CircleProgress: AnimatedCircleProgress
-}
+module.exports = AnimatedCircleProgress
